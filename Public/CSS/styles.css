@@ -1,0 +1,143 @@
+/* ====== ESTILOS GENERALES ====== */
+body {
+    background: linear-gradient(to bottom, black, whitesmoke);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* ====== ESTILOS DEL HEADER ====== */
+header {
+    background: linear-gradient(to right, rgb(247, 2, 2), rgb(245, 114, 7));
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* ====== ESTILOS DEL CONTENEDOR DEL TÍTULO ====== */
+.titulo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.titulo-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.titulo-container p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* ====== ESTILOS DEL CONTENEDOR DE AUTOS ====== */
+.autos-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 25px;
+    flex-grow: 1;
+}
+
+.autos-container img {
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.autos-container img:hover {
+    transform: scale(1.1);
+}
+
+/* ====== ESTILOS DEL LOGO ====== */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 120px;
+    height: 120px;
+}
+
+.logo-container:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.logo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* ====== ESTILOS DE LA SECCIÓN ====== */
+section {
+    text-align: center;
+    padding: 30px 50px;
+    background: linear-gradient(to top, rgb(247, 2, 2), rgb(245, 114, 7));
+    border-radius: 20px;
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    font-weight: 400;
+}
+
+/* ====== ESTILOS DEL FORMULARIO ====== */
+.mb-3 {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+/* ====== ESTILOS DEL FOOTER ====== */
+.footer-container {
+    background: linear-gradient(to bottom, rgb(247, 2, 2), rgb(245, 114, 7));
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.footer-content a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+    color: black;
+    text-decoration: underline;
+}
